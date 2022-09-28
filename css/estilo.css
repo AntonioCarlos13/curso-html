@@ -1,0 +1,115 @@
+/*
+	@author Antônio Carlos
+*/
+
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#slider{
+	margin-top: 77px;
+}
+
+#arrow{
+    color: #000;
+}
+
+.caixa{
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+
+footer{
+	background: #000;
+	padding: 50px 0px 20px 0px;
+
+}
+
+footer h4{
+	color: #919496;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+	color: white;
+	font-size: 1em;
+}
+
+footer .navbar-nav a:hover{
+	color: #FFC107;
+	text-decoration: none;
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer ul li{
+	float: right;
+	margin: 0 5px;
+}
+
+p{
+	text-align: justify;
+}
+
+.caixa h4{
+	text-align: center;
+}
+
+body{
+	color: #000;
+	background-color: white;
+	background-attachment: fixed;
+}
+
+nav.navbar-transparente{
+	padding: 5px 0px;
+	background: #F2F2F2;
+}
+
+.menu-item-target {
+    padding: 10px;
+    color: #054690;
+    font-size: 16px;
+}
+
+/* Cor do Link */
+.navbar-light .navbar-nav .nav-link{
+	color: #2B6592;
+}
+
+/* Cor ao clicar no Link */
+.navbar-light .navbar-nav .nav-link.active{
+	color: white;
+	background-color: #2B6592;
+}
+
+/* Cor ao passar sobre o Link */
+.navbar-light .navbar-nav .nav-link:hover{
+	color: white;
+	background-color: #2B6592;	
+	transition: 0.5s ease;
+
+}
+
+/* Cor da borda do menu Hamburguer */
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.6);
+}
+
+.carousel-control-next,.carousel-control-prev{
+	width: 5%;
+}
+
+a{
+	border-radius: 20px;
+}
+
+.btn-outline-dark:hover {
+	background-color: #2B6592;
+	border-color: #2B6592;
+}

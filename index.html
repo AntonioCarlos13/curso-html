@@ -1,0 +1,290 @@
+
+<!-- @author Antônio Carlos -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <title>Imago - Diagnóstico por Imagem</title>
+    <link rel="icon" href="img/favicon.png">
+  </head>
+  <body>
+    
+    <header><!-- Início do cabeçalho -->
+      <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+        
+        <!-- Logo -->
+        <div class="container"><!-- Início Container -->
+          <a href="index.html" class="navbar-brand">
+            <img src="img/logo-azul.png" width="160" class="img-fluid">
+          </a>
+          
+          <!-- Botão Hamburger -->
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <i class="fas fa-bars text-white"></i>
+          </button>
+
+          <!-- Início Links do cabeçalho -->
+          <div class="collapse navbar-collapse menu-item-target" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item ml-2">
+                <a href="" class="nav-link">Médicos</a>
+              </li>
+              <li class="nav-item ml-2">
+                <a href="" class="nav-link">Exames</a>
+              </li>
+              <li class="nav-item ml-2">
+                <a href="" class="nav-link">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="btn btn-outline-dark ml-4">Resultado de Exames</a>
+              </li>
+            </ul>
+          </div><!-- Fim Links do cabeçalho -->
+
+        </div><!-- Fim Container -->
+      </nav>
+    </header><!-- Fim do cabeçalho -->
+    
+    <section id="slider" class="d-flex"> <!-- Início da seção slider -->
+      <div class="container align-self-center">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div id="carousel-controles" class="carousel slide" data-ride="carousel"><!-- Início do carousel -->
+              
+              <!-- Indicadores -->
+              <ol class="carousel-indicators">
+                
+                <li class="active" data-target="#carousel-controles" data-slide-to="0"></li>
+                <li data-target="#carousel-controles" data-slide-to="1"></li>
+                <li data-target="#carousel-controles" data-slide-to="2"></li>
+                <li data-target="#carousel-controles" data-slide-to="3"></li>
+                <li data-target="#carousel-controles" data-slide-to="4"></li>
+              
+              </ol>
+
+              <div class="carousel-inner"><!-- Início do inner -->
+                
+                <div class="carousel-item active">
+                  <img src="img/slide1.jpg" class="img-fluid">
+                </div>
+
+                <div class="carousel-item ">
+                  <img src="img/slide2.jpg" class="img-fluid">
+                </div>
+
+                <div class="carousel-item ">
+                  <img src="img/slide3.jpg" class="img-fluid">
+                </div>
+
+                <div class="carousel-item ">
+                  <img src="img/slide4.png" class="img-fluid">
+                </div>
+
+                <div class="carousel-item ">
+                  <img src="img/slide5.jpg" class="img-fluid">
+                </div>
+
+              </div><!-- Fim do inner -->
+
+              <!-- Controles carousel -->
+              <a href="#carousel-controles" class="carousel-control-prev" data-slide="prev">
+                <i class="fas fa-angle-left fa-3x" id="arrow"></i>
+              </a>
+
+              <a href="#carousel-controles" class="carousel-control-next" data-slide="next">
+                <i class="fas fa-angle-right fa-3x" id="arrow"></i>
+              </a>
+            </div><!-- Fim do carousel -->
+          </div>
+
+        </div>
+      </div>
+    </section> <!-- Fim da seção slider -->
+
+    <section id="home" class="caixa"><!-- Início da seção Home -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex"><!-- Início textos da seção-->
+            <div class="align-self-center">
+              <h1 class="display-4 mt-4"> Seus exames, nítidos</h1>
+              <p>
+                Trata-se de uma clínica sediada em Campina Grande com médicos especialistas em diagnóstico por imagem. 
+                Ela funciona todos os dias com horários bem flexíveis além de fornecer exames com excelência, humanidade e respeito.
+              </p>
+
+              <form class="my-4"><!-- Início Formulário cadastro -->
+                <div class="input-group input-group-lg">
+                  <input type="text" placeholder="Seu e-mail" class="form-control">
+                  <div class="input-group-append">
+                    <button type="button" class="btn btn-primary">
+                      Cadastre-se
+                    </button>
+                  </div>
+                </div>
+              </form><!-- Fim Formulário cadastro -->
+
+              <p>Disponível para
+                <a href="" class="btn btn-outline-dark">
+                  <i class="fab fa-android fa-lg"></i>
+                </a>
+                <a href="" class="btn btn-outline-dark">
+                  <i class="fab fa-apple fa-lg"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 d-none d-md-block mt-4">
+            <img src="img/tomografia.png">
+          </div>
+        </div>
+      </div>
+    </section><!-- Fim da seção Home -->
+
+    <section class="caixa"><!-- Início da seção Horário -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex"><!-- Início textos da seção-->
+            <div class="align-self-center">
+              <h2>Escolha o melhor horário para você</h1>
+              <p>
+                Na Imago, você pode agendar seus exames de forma presencial ou remota.
+                Com uma ligação ou uma rápida conversa no whatsapp, você pode agendar seu exame com facilidade e rapidez.
+              </p>
+              <a href="" class="btn btn-primary">Veja mais</a>
+            </div>
+          </div> 
+          <div class="col-md-6 d-flex mt-2">
+            <img src="img/horario-funcionamento.jpg" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section><!-- Fim da seção Horário -->
+
+    <section class="caixa" id="medicos"><!-- Início da seção Médicos -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex mb-4">
+            <img src="img/equipe-medica.jpg" class="img-fluid">
+          </div>
+          <div class="col-md-6 d-flex"><!-- Início textos da seção-->
+            <div class="align-self-center">
+              <h2>Conheça nossos médicos</h1>
+              <p>
+                Contamos com profissionais extremamente competentes, unidos com o objetivo
+                comum de fornecer um serviço de qualidade e enriquecer à medicina local.
+              </p>
+              <a href="" class="btn btn-primary">Veja mais</a>
+            </div>
+          </div> 
+          
+        </div>
+      </div>
+    </section><!-- Fim da seção Médicos -->
+
+    <section class="caixa"><!-- Início da seção Exames -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/ultrassonografia.jpg" class="img-fluid">
+            <h4 class="my-2">Ultrassonografia</h4>
+            <p>
+              A ultrassonografia, também chamada ultrassom é um exame de imagem realizado 
+              através de um transdutor que emite e capta ondas sonoras por meio do contato 
+              com o corpo humano. É um exame inofensivo feito geralmente em crianças e grávidas. 
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/mamografia.jpg" class="img-fluid">
+            <h4 class="my-2">Mamografia</h4>
+            <p>
+              A mamografia é um exame radiológico feito nas mamas. Possui alta resolução e 
+              fornece imagens detalhadas capazes de identificar precocemente o câncer de mama, 
+              antes mesmo que a mulher tenha sintomas. Esse exame possibilita identificar nas 
+              mamas: calcificações, nódulos e tumores. 
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/radiografia.jpg" class="img-fluid">
+            <h4 class="my-2">Radiografia</h4>
+            <p>
+              O exame de raios X ou radiografia é um exame solicitado frequentemente para 
+              investigar fraturas, problemas pulmonares e outras condições. O exame é 
+              contraindicado para gestantes. Informe ao médico se houver suspeita de gravidez.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- Fim da seção Exames -->
+
+    <footer><!-- Início Rodapé -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img src="img/logo-branca.png" width="142">
+          </div>
+          <div class="col-md-2">
+            <h4>empresa</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Sobre</a></li>
+              <li><a href="">Empregos</a></li>
+              <li><a href="">Médicos</a></li>
+              <li><a href="">Exames</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>atendimento</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Unidades</a></li>
+              <li><a href="">Convênios</a></li>
+              <li><a href="">Parceiros</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>links uteis</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Ajuda</a></li>
+              <li><a href="">Contato</a></li>
+              <li><a href="">Termos de Uso</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul>
+              <li>
+                <a href=""><img src="img/facebook.png"></a>
+              </li>
+              <li>
+                <a href=""><img src="img/youtube.png"></a>
+              </li>
+              <li>
+                <a href=""><img src="img/instagram.png"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer><!-- Fim Rodapé -->
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
